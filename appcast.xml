@@ -13,13 +13,19 @@
                 <enclosure url="https://github.com/robohei/tagrid-updates/releases/download/test-1.0.1/Tagrid2-1.delta" sparkle:deltaFrom="1" length="2046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="saLyAxZuRaFtnxrMx2fOZloQq4Y7SiLG7NzT+VQrCrLWZtBg3kC9JjcaoGw26b8emiZa1o/oSVGi0Go1GVvzAA=="/>
             </sparkle:deltas>
             <description><![CDATA[<h2>Tagrid 1.0.1 (test)</h2>
-<p>This is a dry run of the update path. Nothing in the app has changed.</p>
+<p>A dry run of the update path. Nothing in the app has changed.</p>
 <ul>
-  <li>Checks that updates download and install from GitHub Releases.</li>
-  <li>Checks that these release notes appear in the update window.</li>
+  <li>Updates download and install from GitHub Releases.</li>
+  <li>These release notes appear in the update window.</li>
+</ul>
+<hr>
+<h2>Tagrid 1.0.1（テスト）</h2>
+<p>更新経路の試運転です。アプリの中身は変わっていません。</p>
+<ul>
+  <li>GitHub Releases からアップデートを取得してインストールできること</li>
+  <li>このリリースノートがアップデートの画面に表示されること</li>
 </ul>
 ]]></description>
-            <sparkle:releaseNotesLink xml:lang="ja">https://robohei.github.io/tagrid-updates/Tagrid-1.0.1.ja.html</sparkle:releaseNotesLink>
         </item>
         <item>
             <title>1.0</title>
