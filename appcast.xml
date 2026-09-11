@@ -3,6 +3,37 @@
     <channel>
         <title>Tagrid</title>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 12 Sep 2026 01:00:20 +0900</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Tagrid 1.0.1</h2>
+<p>A maintenance release. Nothing changes in how the app works.</p>
+<ul>
+  <li>Anonymous usage data now reports the macOS version in a form that does not
+      depend on the language your Mac is set to. Until now one macOS release was
+      counted as two — once for each language it was reported in.</li>
+</ul>
+<p>Usage data can be switched off in Settings &gt; Privacy, and everything that is
+   collected is listed in the privacy policy.</p>
+<hr>
+<h2>Tagrid 1.0.1</h2>
+<p>保守のための更新です。アプリの使い勝手は何も変わりません。</p>
+<ul>
+  <li>匿名の利用状況で、macOS のバージョンを Mac の言語に依存しない形で送るように
+      しました。これまでは同じ macOS が、報告された言語ごとに別のものとして
+      数えられていました。</li>
+</ul>
+<p>利用状況の送信は 設定 &gt; プライバシー でオフにできます。送る内容はすべて
+   プライバシーポリシーに書いてあります。</p>
+]]></description>
+            <enclosure url="https://github.com/robohei/tagrid-updates/releases/download/v1.0.1/Tagrid-1.0.1.zip" length="4390230" type="application/octet-stream" sparkle:edSignature="9Luym5ZBBXEuLoQRkNWcH5+7+Twy851y2ETs89yGZeuMeeCZpMXRwTyf6hwdkU1EeUJG2CCBF2CIq7OvWJygDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/robohei/tagrid-updates/releases/download/v1.0.1/Tagrid2-1.delta" sparkle:deltaFrom="1" length="108806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="es8ap727PEnpenDjxr7IaOZ8zFXkVTnLA/rFfrAcWA5EZR7RzTIgqyD5sbiXfnUghO+GDpqW8GgfDYIOD75NBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Thu, 10 Sep 2026 23:11:22 +0900</pubDate>
             <sparkle:version>1</sparkle:version>
@@ -28,7 +59,7 @@
   <li>元のファイルをその場で書き換えません。コピーに書いてから中身を入れ替えます。</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/robohei/tagrid-updates/releases/download/v1.0/Tagrid-1.0.zip" length="4389544" type="application/octet-stream" sparkle:edSignature="w3omsQesGZVF1RfBxRT/jitBAxi5awbfsA0TStmSlCdnFHjuJHV0SNHQ1AvybPCkXdLuP6x/3FsbK/L1UgMWBQ=="/>
+            <enclosure url="https://github.com/robohei/tagrid-updates/releases/download/v1.0.1/Tagrid-1.0.zip" length="4389544" type="application/octet-stream" sparkle:edSignature="w3omsQesGZVF1RfBxRT/jitBAxi5awbfsA0TStmSlCdnFHjuJHV0SNHQ1AvybPCkXdLuP6x/3FsbK/L1UgMWBQ=="/>
         </item>
     </channel>
 </rss>
